@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designers MDF - Móveis Planejados Sob Medida</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Designers MDF</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#orcamento">Orçamento</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Móveis Planejados Sob Medida</h1>
+            <p>Transformamos seus ambientes com designs únicos e personalizados em MDF de alta qualidade</p>
+            <div class="hero-buttons">
+                <a href="#orcamento" class="btn-primary">Solicite um Orçamento Gratuito</a>
+                <a href="#portfolio" class="btn-secondary">Veja Nossos Projetos</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>+5</h3>
+                <p>Anos de Experiência</p>
+            </div>
+            <div class="stat">
+                <h3>100%</h3>
+                <p>Atendimento Personalizado</p>
+            </div>
+            <div class="stat">
+                <h3>500+</h3>
+                <p>Projetos Realizados</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Nossos Projetos</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="cozinha">Cozinhas</button>
+                <button class="filter-btn" data-filter="closet">Closets</button>
+                <button class="filter-btn" data-filter="home-office">Home Office</button>
+                <button class="filter-btn" data-filter="sala">Salas</button>
+                <button class="filter-btn" data-filter="banheiro">Banheiros</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="cozinha">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/d4af37/ffffff?text=Cozinha+Planejada" alt="Cozinha Planejada">
+                        <div class="portfolio-overlay">
+                            <h3>Cozinha Moderna</h3>
+                            <p>Projeto completo com bancada em granito</p>
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="closet">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/d4af37/ffffff?text=Closet+Planejado" alt="Closet Planejado">
+                        <div class="portfolio-overlay">
+                            <h3>Closet Luxuoso</h3>
+                            <p>Espaço otimizado com prateleiras e gavetas</p>
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="home-office">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/d4af37/ffffff?text=Home+Office+Planejado" alt="Home Office Planejado">
+                        <div class="portfolio-overlay">
+                            <h3>Home Office Funcional</h3>
+                            <p>Ambiente de trabalho confortável e produtivo</p>
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="sala">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/d4af37/ffffff?text=Sala+Planejada" alt="Sala Planejada">
+                        <div class="portfolio-overlay">
+                            <h3>Sala Elegante</h3>
+                            <p>Design sofisticado com móveis sob medida</p>
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="banheiro">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/d4af37/ffffff?text=Banheiro+Planejado" alt="Banheiro Planejado">
+                        <div class="portfolio-overlay">
+                            <h3>Banheiro Moderno</h3>
+                            <p>Espaço otimizado com armários e prateleiras</p>
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="cozinha">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/d4af37/ffffff?text=Cozinha+Planejada" alt="Cozinha Planejada">
+                        <div class="portfolio-overlay">
+                            <h3>Cozinha Gourmet</h3>
+                            <p>Espaço ideal para receber amigos e familiares</p>
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta">
+                <p>Gostou do que viu? Entre em contato e solicite um orçamento personalizado!</p>
+                <a href="#orcamento" class="btn-primary">Solicitar Orçamento</a>
+            </div>
+        </div>
+    </section>
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container sobre-content">
+            <div class="sobre-text">
+                <h2>Sobre Nós</h2>
+                <p>Somos uma empresa especializada em móveis planejados, oferecendo soluções personalizadas para cada ambiente da sua casa.</p>
+                <p>Nossa equipe de designers e arquitetos está pronta para transformar seus sonhos em realidade, criando espaços funcionais e elegantes.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Serviços Section -->
+    <section id="servicos" class="servicos">
+        <div class="container servicos-content">
+            <div class="servicos-text">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos uma ampla gama de serviços para atender às suas necessidades de móveis planejados:</p>
+                <ul>
+                    <li>Consultoria de Design de Interiores</li>
+                    <li>Planejamento e Projeto Personalizado</li>
+                    <li>Montagem e Instalação de Móveis</li>
+                    <li>Atendimento ao Cliente e Suporte Pós-Venda</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Orçamento Section -->
+    <section id="orcamento" class="orcamento">
+        <div class="container">
+            <h2>Solicite um Orçamento</h2>
+            <p>Preencha o formulário abaixo e nossa equipe entrará em contato para oferecer um orçamento personalizado.</p>
+            <form class="orcamento-form">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Solicitação</button>
+            </form>
+        </div>
+    </section>
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Nosso Blog</h2>
+            <p>Acompanhe as últimas novidades e dicas sobre móveis planejados e decoração.</p>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <h3>Título do Post 1</h3>
+                    <p>Resumo do post 1...</p>
+                    <a href="#" class="btn-read-more">Leia Mais</a>
+                </article>
+                <article class="blog-post">
+                    <h3>Título do Post 2</h3>
+                    <p>Resumo do post 2...</p>
+                    <a href="#" class="btn-read-more">Leia Mais</a>
+                </article>
+                <article class="blog-post">
+                    <h3>Título do Post 3</h3>
+                    <p>Resumo do post 3...</p>
+                    <a href="#" class="btn-read-more">Leia Mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 MDF Design. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Filter Portfolio Items
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+        // Smooth Scroll for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        // Form Submission (Placeholder)
+        const form = document.querySelector('.orcamento-form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Aqui você pode adicionar a lógica para enviar o formulário
+            alert('Formulário enviado!');
+        });
+    </script>
+</body>
